@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel = "stylesheet" href = "gaming.css/about.css">
+</head>
+<style>
+    body{
+        background:linear-gradient(rgba(99, 99, 18, 0.76) 500px, black 700px), url(images/ruler.jpg)
+    }
+
+    @font-face {
+                 font-family:redhat ;
+                 src: url("fonts/RedHatText-BoldItalic.otf");
+}
+</style>
+<header>
+    <section class = "one">
+        <div> </div>
+        
+    </section>
+    
+    <nav>
+        <a href = "gaming.html" target="_blank" class = "a">Home</a>
+        <a href = "#" target="_self" class = "b">About</a>
+        <a href = "#" target="_blank" class = "c">Daily Trends</a>
+        <a href = "#" target ="_blank" class = "c">Daily Scores</a>
+    </nav>
+</header>
+<body class="body">
+    <h1 id = "time"></h1>
+  <section class = "section1">
+    <p>Gaming is the most Entertaining thing one've ever thought about, making leisure time as fascination moment.</p>
+    <p>This is a menegerie of Games @live  connecting over millions of online multiplayers.</p>
+    <p>Chating while gaming is of free bug,high connection for the gaming network.<span>Also pay with your Credit card, Debit card Instead.
+    </span></p>
+  </section>
+  <script>
+      var time = document.getElementById('time');
+      setInterval(() => { var m = new Date();
+       time.innerHTML = m.toLocaleTimeString();  
+      }, 1000);
+     
+  </script>
+</body>
+</html>
